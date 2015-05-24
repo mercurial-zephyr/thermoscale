@@ -35,7 +35,7 @@ For example, thermal images that include the sun are often rendered as all black
 
 In autoscaling, the values of min and max are automatically set to the minimum and maximum pixel values in the 16-bit image. This program allows the user to manually control these values via two sliders.
 
-Read TL;DR above for 
+Read TL;DR above for command-line usage.
 
 Footnotes:
 [1] NOTE: It should be emphasized that this is primarily a problem of data visualization. If a program is capable of handling 16-bit images, then it doesn't need to perform any kind of scaling at all. However, some OpenCV functions do operate only on 8-bit images, making this problem relevant at a programmatic level after all.
